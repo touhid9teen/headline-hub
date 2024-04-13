@@ -1,0 +1,50 @@
+{
+  "name": "@news/app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "autoprefixer": "^9",
+    "axios": "^1.6.8",
+    "buffer": "^6.0.3",
+    "cra-template": "1.2.0",
+    "https-browserify": "^1.0.0",
+    "postcss": "^7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "rss-parser": "^3.13.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "timers-browserify": "^2.0.12",
+    "url": "^0.11.3",
+    "web-vitals": "^3.5.2",
+    "xml2js": "^0.6.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

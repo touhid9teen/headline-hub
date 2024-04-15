@@ -18,29 +18,17 @@ export const getFavorites = () => {
 export const getNews = async () => {
     const rssFeeds = [
         // Add RSS feed URLs for other news sites here
-        "https://www.prothomalo.com/feed/",
-        "https://bdnews24.com/rss.xml",
-        "https://www.thedailystar.net/rss.xml",
-        "https://www.jugantor.com/rss.xml",
-        "https://www.kalerkantho.com/rss.xml",
-        "https://www.samakal.com/rss.xml",
-        "https://www.banglatribune.com/rss.xml",
-        "https://www.manobkantha.com/rss.xml",
-        "https://www.bhorerkagoj.com/rss.xml",
-        "https://www.jaijaidinbd.com/rss.xml",
-        "https://www.dhakatribune.com/rss.xml",
         "https://feeds.bbci.co.uk/news/rss.xml",
         "http://rss.cnn.com/rss/edition.rss",
         "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-        "https://www.theguardian.com/uk/rss",
-        "https://www.aljazeera.com/xml/rss/all.xml",
         "https://www.reuters.com/tools/rss",
         "https://www.foxnews.com/about/rss",
         "https://www.npr.org/rss/rss.php",
         "https://www.usatoday.com/rss/",
-        "https://www.theguardian.com/uk/rss",
-        "https://www.theguardian.com/world/rss",
         "http://feeds.nbcnews.com/nbcnews/public/news",
+        "https://bdnews24.com/rss.xml",
+        
+        
     ];
 
     let allNews = [];

@@ -5,8 +5,12 @@ import Home from "./pages/Home";
 import Favorites from "./pages/Favorites";
 import Settings from "./pages/Settings";
 import Navbar from "./components/Navbar";
+import { IoIosArrowUp } from "react-icons/io";
 
 const App = () => {
+    const scrollTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
     return (
         <Router>
             <Navbar />
@@ -16,6 +20,9 @@ const App = () => {
                 <Route path="/favorites" element={<Favorites />} exact />
                 <Route path="/settings" element={<Settings />} exact />
             </Routes>
+            <Button onClick={scrollTop}>
+                <IoIosArrowUp />
+            </Button>
         </Router>
     );
 };

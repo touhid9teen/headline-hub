@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Favorites from "./pages/Favorites";
 import Settings from "./pages/Settings";
 import Navbar from "./components/Navbar";
+import Button from "./components/Button";
 import { IoIosArrowUp } from "react-icons/io";
 
 const App = () => {
